@@ -1,0 +1,27 @@
+{application, erl_common,
+ [
+  {description, "erl_common"},
+  {vsn, "0.0.1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  sasl,
+		  ssl,
+                  tools,
+		  os_mon,      
+                  runtime_tools,
+                  crypto,
+                  inets,
+                  xmerl,
+                  snmp,
+		  public_key,
+                  eunit,
+                  syntax_tools,
+		  compiler
+
+                 ]},
+  {mod, { erl_common, []}},
+  {env, []}
+
+ ]}.
